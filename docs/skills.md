@@ -4,12 +4,12 @@ Skills are advanced commands with multi-step logic.
 
 ## Available skills
 
-### /learn
+### /understand
 
 Interactive learning through code explanation.
 
 ```bash
-/learn [paste code here]
+/understand [paste code here]
 ```
 
 **How it works:**
@@ -21,7 +21,7 @@ Interactive learning through code explanation.
 
 **Example session:**
 ```
-> /learn const add = (a, b) => a + b
+> /understand const add = (a, b) => a + b
 
 AI: Explain this code in your own words.
 
@@ -52,12 +52,12 @@ Arrow functions are a shorter syntax for functions.
 They don't have their own `this` binding.
 ```
 
-### /review
+### /revise_notes
 
 Review your notes with spaced repetition.
 
 ```bash
-/review
+/revise_notes
 ```
 
 **How it works:**
@@ -68,7 +68,7 @@ Review your notes with spaced repetition.
 
 **Example session:**
 ```
-> /review
+> /revise_notes
 
 AI: Let's review your notes.
     You have 2 concepts to review.

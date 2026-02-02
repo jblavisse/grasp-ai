@@ -15,8 +15,8 @@ Tu apprends en **expliquant**. Pas en lisant.
 ### Option 1: Claude Code
 
 ```bash
-/learn [ton code]
-/review
+/understand [ton code]
+/revise_notes
 ```
 
 Commandes dans `.claude/commands/`
@@ -24,15 +24,15 @@ Commandes dans `.claude/commands/`
 ### Option 2: Gemini CLI (gratuit)
 
 ```bash
-/learn [ton code]
-/review
+/understand [ton code]
+/revise_notes
 ```
 
 Commandes dans `.gemini/commands/`
 
 ### Option 3: N'importe quelle IA (copier-coller)
 
-1. Ouvre `prompts/learn.md` ou `prompts/review.md`
+1. Ouvre `prompts/understand.md` ou `prompts/revise_notes.md`
 2. Copie le prompt
 3. Colle dans ChatGPT, Gemini web, etc.
 4. Crée/modifie les notes manuellement dans `notes/`
@@ -55,7 +55,7 @@ Elles n'ont pas leur propre `this`.
 ## Le flow
 
 ```
-/learn [code] → explique → note créée → /review → explique → note done
+/understand [code] → explique → note créée → /revise_notes → explique → note done
 ```
 
 ## Comparaison des outils
