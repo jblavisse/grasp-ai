@@ -1,29 +1,38 @@
 # Grasp AI
 
-Learn AI-assisted development progressively.
+Apprends n'importe quoi en utilisant l'IA comme outil.
 
-## Levels
+## Le système
 
-| Branch | What you learn |
-|--------|----------------|
-| `level-0` | Naive chat usage |
-| `level-1` | Reusable prompt templates |
-| `level-2` | Context injection (CLAUDE.md) |
-| `level-3` | Custom commands + commit/PR |
-| `level-4` | /explain skill + notes |
-| `level-5` | /review spaced repetition |
+1. **Tu regardes du code** (ou n'importe quoi)
+2. **Tu expliques** avec `/learn`
+3. **L'IA détecte** ce que tu comprends pas
+4. **Une note est créée** dans `notes/`
+5. **Tu révises** avec `/review`
+
+→ Voir `LEVEL-guide.md` pour les détails.
+
+## Levels (pour apprendre l'outil)
+
+| Branch | Ce qu'on apprend |
+|--------|------------------|
+| `level-0` | Usage basique du chat |
+| `level-1` | Prompts templates réutilisables |
+| `level-2` | Contexte projet (CLAUDE.md) |
+| `level-3` | Commandes custom + commit/PR |
+| `level-4` | /learn + système de notes |
+| `level-5` | /review + révision espacée |
 
 ## Quick start
 
 ```bash
-# Checkout the level you want to learn
-git checkout level-1
-
-# Read the README changes for that level
+git checkout level-4
+# Utilise /learn sur du code
+# Utilise /review pour réviser
 ```
 
-## Philosophy
+## Philosophie
 
 - Less is more
-- Learn by doing, not reading
-- Trust but verify AI output
+- Apprendre en faisant, pas en lisant
+- Trust but verify
