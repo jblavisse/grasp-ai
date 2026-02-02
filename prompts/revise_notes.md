@@ -1,6 +1,6 @@
-# Review (Copier-coller)
+# Réviser (Copier-coller)
 
-Copie ce prompt + tes notes dans n'importe quel IA.
+Copie ce prompt + tes notes dans n'importe quelle IA.
 
 ---
 

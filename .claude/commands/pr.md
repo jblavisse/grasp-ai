@@ -1,14 +1,14 @@
 # Pull Request
 
-Create a PR for my current branch.
+Crée une PR pour ma branche actuelle.
 
 Format:
-## Summary
+## Résumé
 [1-3 bullet points]
 
-## Test plan
-[How to verify this works]
+## Plan de test
+[Comment vérifier que ça marche]
 
-Rules:
-- Keep summary short
-- Test plan = concrete steps
+Règles:
+- Résumé court
+- Plan de test = étapes concrètes

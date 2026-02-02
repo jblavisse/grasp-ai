@@ -1,12 +1,12 @@
 # Commit
 
-Look at my staged changes and write a commit message.
+Regarde mes changements stagés et écris un message de commit.
 
-Format: `<type>: <short description>`
+Format: `<type>: <description courte>`
 
 Types: feat, fix, docs, refactor, test, chore
 
-Rules:
-- Under 50 chars
-- Imperative mood ("add" not "added")
-- Focus on WHY not WHAT
+Règles:
+- Moins de 50 caractères
+- Mode impératif ("add" pas "added")
+- Focus sur le POURQUOI pas le QUOI

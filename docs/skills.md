@@ -1,45 +1,45 @@
 # Skills
 
-Skills are advanced commands with multi-step logic.
+Les skills sont des commandes avancées avec une logique multi-étapes.
 
-## Available skills
+## Skills disponibles
 
 ### /understand
 
-Interactive learning through code explanation.
+Apprentissage interactif par l'explication de code.
 
 ```bash
-/understand [paste code here]
+/understand [colle ton code ici]
 ```
 
-**How it works:**
-1. You paste code
-2. AI asks you to explain it
-3. You explain in your own words
-4. AI identifies gaps in your understanding
-5. AI creates notes for concepts you need to review
+**Comment ça marche:**
+1. Tu colles du code
+2. L'IA te demande de l'expliquer
+3. Tu expliques avec tes mots
+4. L'IA identifie tes lacunes
+5. L'IA crée des notes pour les concepts à revoir
 
-**Example session:**
+**Exemple:**
 ```
 > /understand const add = (a, b) => a + b
 
-AI: Explain this code in your own words.
+IA: Explique ce code avec tes mots.
 
-You: It's a function that adds two numbers.
+Toi: C'est une fonction qui additionne deux nombres.
 
-AI: Good! You understood the basic purpose.
-    I noticed you didn't mention:
-    - Arrow function syntax
-    - Implicit return
+IA: Bien! Tu as compris le but.
+    J'ai remarqué que tu n'as pas mentionné:
+    - La syntaxe arrow function
+    - Le return implicite
 
-    Created notes:
+    Notes créées:
     - notes/arrow-functions.md
-    - notes/implicit-return.md
+    - notes/return-implicite.md
 ```
 
-## Note format
+## Format des notes
 
-Notes are created in `notes/` (gitignored):
+Les notes sont créées dans `notes/` (gitignored):
 
 ```markdown
 ---
@@ -48,53 +48,53 @@ status: todo
 
 # Arrow Functions
 
-Arrow functions are a shorter syntax for functions.
-They don't have their own `this` binding.
+Les arrow functions sont une syntaxe courte pour les fonctions.
+Elles n'ont pas leur propre binding `this`.
 ```
 
 ### /revise_notes
 
-Review your notes with spaced repetition.
+Révise tes notes avec la répétition espacée.
 
 ```bash
 /revise_notes
 ```
 
-**How it works:**
-1. AI lists notes with `status: todo`
-2. For each note, AI asks you to explain the concept
-3. If you explain well → status changes to `done`
-4. If you struggle → stays `todo` for next review
+**Comment ça marche:**
+1. L'IA liste les notes avec `status: todo`
+2. Pour chaque note, l'IA te demande d'expliquer le concept
+3. Si t'expliques bien → status passe à `done`
+4. Si tu galères → reste `todo` pour la prochaine révision
 
-**Example session:**
+**Exemple:**
 ```
 > /revise_notes
 
-AI: Let's review your notes.
-    You have 2 concepts to review.
+IA: Révisons tes notes.
+    Tu as 2 concepts à revoir.
 
-    1/2: Explain "Arrow Functions" in your own words.
+    1/2: Explique "Arrow Functions" avec tes mots.
 
-You: They're shorter function syntax with () => {}
+Toi: C'est une syntaxe courte avec () => {}
 
-AI: Good! I've marked this as done.
+IA: Bien! Je marque comme done.
 
-    2/2: Explain "Closures" in your own words.
+    2/2: Explique "Closures" avec tes mots.
 
-You: Uh... something with scope?
+Toi: Euh... un truc avec le scope?
 
-AI: Not quite. Hint: it's about functions
-    remembering their environment.
-    We'll review this again next time.
+IA: Pas tout à fait. Indice: c'est quand une fonction
+    se souvient de son environnement.
+    On reverra ça la prochaine fois.
 
-    Summary:
-    - Reviewed: 2
-    - Mastered: 1
-    - Retry: 1
+    Résumé:
+    - Révisées: 2
+    - Maîtrisées: 1
+    - À revoir: 1
 ```
 
-## Why this works
+## Pourquoi ça marche
 
-- **Active recall**: explaining forces you to think
-- **Spaced repetition**: review notes regularly
-- **Zettelkasten**: small atomic notes build knowledge
+- **Active recall**: expliquer force à réfléchir
+- **Spaced repetition**: réviser régulièrement
+- **Zettelkasten**: petites notes atomiques = meilleure rétention

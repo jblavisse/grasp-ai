@@ -1,8 +1,8 @@
-# Explain Code
+# Expliquer
 
-Explain this code step by step:
-- What it does (not how)
-- Why it's written this way
-- Any gotchas or edge cases
+Explique ce code étape par étape:
+- Ce qu'il fait (pas comment)
+- Pourquoi il est écrit comme ça
+- Les pièges ou cas limites
 
 $ARGUMENTS

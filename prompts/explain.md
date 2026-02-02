@@ -1,25 +1,25 @@
-# Explain Code
+# Expliquer (Copier-coller)
 
-Copy-paste this prompt with your code.
+Copie ce prompt + ton code dans n'importe quelle IA.
 
 ---
 
 ```
-Explain this code step by step.
-Focus on:
-- What it does (not how)
-- Why it's written this way
-- Any gotchas or edge cases
+Explique ce code étape par étape.
+Focus sur:
+- Ce qu'il fait (pas comment)
+- Pourquoi il est écrit comme ça
+- Les pièges ou cas limites
 
 Code:
-[PASTE YOUR CODE HERE]
+[COLLE TON CODE ICI]
 ```
 
 ---
 
-## If it doesn't work
+## Si ça marche pas
 
-AI didn't understand? Try:
-- Add more context: "This is a React component that..."
-- Be specific: "Explain the useEffect hook" instead of "explain this"
-- Break it down: paste smaller chunks
+L'IA a pas compris? Essaie:
+- Ajoute du contexte: "C'est un composant React qui..."
+- Sois précis: "Explique le useEffect" au lieu de "explique ça"
+- Découpe: colle des morceaux plus petits

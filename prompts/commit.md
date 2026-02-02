@@ -1,23 +1,23 @@
-# Commit Message
+# Commit (Copier-coller)
 
-Copy-paste this prompt with your diff.
+Copie ce prompt + ton diff dans n'importe quelle IA.
 
 ---
 
 ```
-Write a commit message for this change.
-Format: <type>: <short description>
+Écris un message de commit pour ce changement.
+Format: <type>: <description courte>
 
 Types: feat, fix, docs, refactor, test, chore
 
 Diff:
-[PASTE YOUR GIT DIFF HERE]
+[COLLE TON GIT DIFF ICI]
 ```
 
 ---
 
 ## Tips
 
-- Keep it under 50 chars
-- Use imperative: "add" not "added"
-- Focus on WHY, not WHAT (the diff shows what)
+- Moins de 50 caractères
+- Mode impératif: "add" pas "added"
+- Focus sur le POURQUOI, pas le QUOI (le diff montre le quoi)

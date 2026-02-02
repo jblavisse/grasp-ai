@@ -1,6 +1,6 @@
-# Learn (Copier-coller)
+# Comprendre (Copier-coller)
 
-Copie ce prompt + ton code dans n'importe quel IA.
+Copie ce prompt + ton code dans n'importe quelle IA.
 
 ---
 

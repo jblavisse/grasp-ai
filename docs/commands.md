@@ -1,27 +1,27 @@
-# Custom Commands
+# Commandes custom
 
-Commands let you run prompts with a shortcut.
+Les commandes te permettent de lancer des prompts avec un raccourci.
 
 ## Usage (Claude Code)
 
 ```bash
-/explain [paste code here]
+/explain [colle ton code ici]
 /commit
 /pr
 ```
 
-## How it works
+## Comment ça marche
 
-1. Commands live in `.claude/commands/`
-2. Each `.md` file = one command
-3. File name = command name
-4. `$ARGUMENTS` = what you type after the command
+1. Les commandes sont dans `.claude/commands/`
+2. Chaque fichier `.md` = une commande
+3. Nom du fichier = nom de la commande
+4. `$ARGUMENTS` = ce que tu tapes après la commande
 
-## Example
+## Exemple
 
-File: `.claude/commands/explain.md`
+Fichier: `.claude/commands/explain.md`
 ```markdown
-Explain this code:
+Explique ce code:
 $ARGUMENTS
 ```
 
@@ -30,10 +30,12 @@ Usage:
 /explain function add(a, b) { return a + b }
 ```
 
-## Available commands
+## Commandes disponibles
 
-| Command | What it does |
-|---------|--------------|
-| `/explain` | Explain code step by step |
-| `/commit` | Generate commit message |
-| `/pr` | Generate PR description |
+| Commande | Ce qu'elle fait |
+|----------|-----------------|
+| `/explain` | Explique du code étape par étape |
+| `/commit` | Génère un message de commit |
+| `/pr` | Génère une description de PR |
+| `/understand` | Teste ta compréhension + crée des notes |
+| `/revise_notes` | Révise tes notes |

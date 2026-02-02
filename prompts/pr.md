@@ -1,27 +1,27 @@
-# Pull Request
+# Pull Request (Copier-coller)
 
-Copy-paste this prompt with your changes summary.
+Copie ce prompt + ton résumé dans n'importe quelle IA.
 
 ---
 
 ```
-Write a PR description for these changes.
+Écris une description de PR pour ces changements.
 
 Format:
-## Summary
+## Résumé
 [1-3 bullet points]
 
-## Test plan
-[How to verify this works]
+## Plan de test
+[Comment vérifier que ça marche]
 
-Changes:
-[DESCRIBE WHAT YOU CHANGED]
+Changements:
+[DÉCRIS CE QUE T'AS CHANGÉ]
 ```
 
 ---
 
 ## Tips
 
-- Summary = WHAT changed
-- Test plan = HOW to verify
-- Keep it short, reviewers are busy
+- Résumé = CE QUI a changé
+- Plan de test = COMMENT vérifier
+- Reste court, les reviewers sont occupés
