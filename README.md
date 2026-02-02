@@ -1,38 +1,46 @@
 # Grasp AI
 
-Apprends n'importe quoi en utilisant l'IA comme outil.
+Utilise l'IA pour **comprendre**, **apprendre** et **maîtriser** plus vite toute chose (dont du code).
 
-## Le système
+## Comment ça marche
 
-1. **Tu regardes du code** (ou n'importe quoi)
-2. **Tu expliques** avec `/understand`
-3. **L'IA détecte** ce que tu comprends pas
-4. **Une note est créée** dans `notes/`
-5. **Tu révises** avec `/revise_notes`
+1. Tu vois quelque chose que tu veux comprendre
+2. Tu demandes à l'IA de te tester avec `/understand`
+3. Tu expliques avec tes mots
+4. L'IA détecte ce que tu maîtrises pas → crée une note
+5. Tu révises avec `/revise_notes`
 
-→ Voir `LEVEL-guide.md` pour les détails.
+## Commandes
 
-## Levels (pour apprendre l'outil)
+| Commande | Ce qu'elle fait |
+|----------|-----------------|
+| `/understand [code]` | L'IA te demande d'expliquer, note tes lacunes |
+| `/revise_notes` | Révise tes notes jusqu'à maîtrise |
 
-| Branch | Ce qu'on apprend |
-|--------|------------------|
-| `level-0` | Usage basique du chat |
-| `level-1` | Prompts templates réutilisables |
-| `level-2` | Contexte projet (CLAUDE.md) |
-| `level-3` | Commandes custom + commit/PR |
-| `level-4` | /understand + système de notes |
-| `level-5` | /revise_notes + révision espacée |
+## Pourquoi ça marche
+
+- **Active recall** : expliquer force à vraiment comprendre
+- **Spaced repetition** : réviser au bon moment
+- **Zettelkasten** : petites notes = meilleure rétention
 
 ## Quick start
 
 ```bash
-git checkout level-4
-# Utilise /understand sur du code
-# Utilise /revise_notes pour réviser
+git clone https://github.com/jblavisse/grasp-ai
+cd grasp-ai
+
+# Avec Claude Code
+/understand [ton code]
+
+# Avec Gemini CLI (gratuit)
+/understand [ton code]
+
+# Avec n'importe quelle IA
+# → copie prompts/understand.md
 ```
 
-## Philosophie
+## Apprendre le workflow IA
 
-- Less is more
-- Apprendre en faisant, pas en lisant
-- Trust but verify
+Les branches `level-0` à `level-5` t'apprennent à utiliser l'IA efficacement.
+
+→ Voir `LEVEL-guide.md`
