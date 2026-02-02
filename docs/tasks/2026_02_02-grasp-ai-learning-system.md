@@ -89,12 +89,12 @@
 
 ## Reviewed implementation
 
-- [ ] Phase 1 - Setup + level-0
-- [ ] Phase 2 - level-1: Prompts templates
-- [ ] Phase 3 - level-2: CLAUDE.md context
-- [ ] Phase 4 - level-3: Commands + commit/PR
-- [ ] Phase 5 - level-4: /explain skill + notes
-- [ ] Phase 6 - level-5: /review skill
+- [x] Phase 1 - Setup + level-0
+- [x] Phase 2 - level-1: Prompts templates
+- [x] Phase 3 - level-2: CLAUDE.md context
+- [x] Phase 4 - level-3: Commands + commit/PR
+- [x] Phase 5 - level-4: /explain skill + notes
+- [x] Phase 6 - level-5: /review skill
 
 ## Validation flow
 
