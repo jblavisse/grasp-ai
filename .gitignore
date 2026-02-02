@@ -1,13 +1,9 @@
-# <AIDD>
-#
-# You might want to ignore the following files and directories:
-#
-aidd* # AIDD installation folder
+# AIDD installation (internal tooling)
 aidd/
-docs/
 worktrees/
 
-.claude
-.opencode
+# Personal notes (zettelkasten)
+notes/
 
-# </AIDD>
+# IDE/Tool configs
+.opencode
