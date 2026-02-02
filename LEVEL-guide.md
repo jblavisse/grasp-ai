@@ -10,23 +10,32 @@ Tu apprends en **expliquant**. Pas en lisant.
 4. Une note est créée pour chaque concept flou
 5. Tu révises plus tard
 
-## Commandes
+## 3 façons d'utiliser
 
-### /learn [code]
-
-```bash
-/learn const add = (a, b) => a + b
-```
-
-L'IA te demande d'expliquer. Si t'expliques mal → note créée dans `notes/`.
-
-### /review
+### Option 1: Claude Code
 
 ```bash
+/learn [ton code]
 /review
 ```
 
-L'IA te fait réviser tes notes. Si t'expliques bien → note marquée `done`.
+Commandes dans `.claude/commands/`
+
+### Option 2: Gemini CLI (gratuit)
+
+```bash
+/learn [ton code]
+/review
+```
+
+Commandes dans `.gemini/commands/`
+
+### Option 3: N'importe quelle IA (copier-coller)
+
+1. Ouvre `prompts/learn.md` ou `prompts/review.md`
+2. Copie le prompt
+3. Colle dans ChatGPT, Gemini web, etc.
+4. Crée/modifie les notes manuellement dans `notes/`
 
 ## Tes notes
 
@@ -49,14 +58,16 @@ Elles n'ont pas leur propre `this`.
 /learn [code] → explique → note créée → /review → explique → note done
 ```
 
+## Comparaison des outils
+
+| Outil | Dossier | Gratuit |
+|-------|---------|---------|
+| Claude Code | `.claude/commands/` | Non |
+| Gemini CLI | `.gemini/commands/` | ✅ Oui |
+| Copier-coller | `prompts/` | ✅ Oui |
+
 ## Pourquoi ça marche
 
 - **Active recall** : expliquer force à réfléchir
 - **Spaced repetition** : réviser régulièrement
 - **Zettelkasten** : petites notes atomiques
-
-## À chaque level
-
-1. Regarde le code/fichiers du level
-2. Utilise `/learn` sur ce que tu comprends pas
-3. Reviens plus tard avec `/review`
