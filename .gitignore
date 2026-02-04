@@ -1,0 +1,9 @@
+# AIDD installation (internal tooling)
+aidd/
+worktrees/
+
+# Personal notes (zettelkasten)
+notes/
+
+# IDE/Tool configs
+.opencode
