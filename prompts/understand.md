@@ -18,7 +18,28 @@ Format de note:
 status: todo
 ---
 # [Concept]
-[Explication en 2-3 phrases]
+
+## Métaphore (si concept abstrait)
+[Analogie concrète — pas pour tous les concepts, seulement les abstraits]
+
+---
+
+[Explication technique claire avec code réel]
+
+## Exemple
+// Avant (problème)
+...
+// Après (solution)
+...
+
+Voir : [[note-liée]] (seulement si vraiment lié)
+
+Style:
+- Métaphores pour concepts abstraits uniquement
+- Liens [[wiki]] naturels, pas forcés
+- Exemples avant/après quand ça clarifie
+- Tableaux pour comparaisons
+- Code réel, pas simplifié à l'excès
 
 Code à expliquer:
 [COLLE TON CODE ICI]
