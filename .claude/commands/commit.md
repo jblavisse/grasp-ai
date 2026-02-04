@@ -1,0 +1,12 @@
+# Commit
+
+Regarde mes changements stagés et écris un message de commit.
+
+Format: `<type>: <description courte>`
+
+Types: feat, fix, docs, refactor, test, chore
+
+Règles:
+- Moins de 50 caractères
+- Mode impératif ("add" pas "added")
+- Focus sur le POURQUOI pas le QUOI
