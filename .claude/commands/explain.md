@@ -1,0 +1,21 @@
+# Expliquer
+
+Explique ce code clairement:
+
+$ARGUMENTS
+
+## Ce que tu dois faire
+
+1. **Ce qu'il fait** : en une phrase
+2. **Ligne par ligne** : explique chaque bloc
+3. **Pourquoi** : les choix de design, pas juste la mécanique
+4. **Pièges** : cas limites ou erreurs courantes
+
+## Style
+
+- Métaphores pour concepts abstraits
+- Exemples avant/après si utile
+- Tableaux pour comparaisons
+- Liens vers documentation si pertinent
+
+Si l'utilisateur a des notes dans `notes/`, référence-les avec [[nom-note]] quand c'est pertinent.
